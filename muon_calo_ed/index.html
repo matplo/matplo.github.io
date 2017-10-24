@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+
+ALICE Muon-Calo trigger event display
+
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="../static/mp/css/docs.min.css"> -->
+<!-- <link rel="stylesheet" href="../static/mp/css/bg.css"> -->
+<!-- <link rel="stylesheet" href="../static/mp/css/_navbar.css"> -->
+<!-- link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/docs.min.css" rel="stylesheet"> -->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="https://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet"> -->
+<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/bgfiti.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/navbar.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/sublevel-dropdown.css" rel="stylesheet">
+<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/other.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/mp/css/pygments.css">
+<!--<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/tomorrow-night.css" rel="stylesheet"> -->
+
+  </head>
+  <body>
+    
+	
+<!-- Static navbar -->
+<!-- <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="nav-navbar"> -->
+<nav class="navbar navbar-fixed-top navbar-inverse" id="nav-navbar">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../index.html">home</a>
+			<a class="navbar-brand" href="#">top</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="dropdown">
+					
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">pages<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../markdown/index.html"> Useful things on markdown
+			<small>
+				
+				
+				<span class="label label-default"> code </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../pythia_hand/index.html"> PYTHIA Handy
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="index.html"> ALICE Muon-Calo trigger event display
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				<span class="label label-default"> alice </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../index/index.html"> MP Home page
+			<small>
+				
+				
+				<span class="label label-default"> general </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../students_hepsoft/index.html"> A custom HEP software installation
+			<small>
+				
+				
+				<span class="label label-default"> students </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../pyroot/index.html"> PyROOT
+			<small>
+				
+				
+				<span class="label label-default"> code </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../lhc_experiments/index.html"> LHC Experiments
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../students_start_here/index.html"> Start Here
+			<small>
+				
+				
+				<span class="label label-default"> students </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../jet_notes/index.html"> Jet substructure
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../snips/index.html"> snips
+			<small>
+				
+				
+				<span class="label label-default"> evernote </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../tests/index.html"> All sorts of tests
+			<small>
+				
+				
+				<span class="label label-default"> misc </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../alice_sim_pdsf/index.html"> ALICE simulation on PDSF
+			<small>
+				
+				
+				<span class="label label-default"> alice </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../alice_file_transfer_pdsf/index.html"> ALICE data transfer to PDSF
+			<small>
+				
+				
+				<span class="label label-default"> alice </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../pythia_examples_cc/index.html"> PYTHIA8 *.cc examples
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../latex/index.html"> Latex things
+			<small>
+				
+				
+				<span class="label label-default"> code </span>
+				
+				<span class="label label-default"> tools </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../novel_hf/index.html"> Novel methods for heavy-flavor studies
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../bootstrap/index.html"> Bootstrap
+			<small>
+				
+				
+				<span class="label label-default"> code </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../lbltb/index.html"> LBL Test Beam Graphed
+			<small>
+				
+				
+				<span class="label label-default"> code </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../eic/index.html"> Electron-Ion C.
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../misc_refs/index.html"> Miscellaneous refs
+			<small>
+				
+				
+				<span class="label label-default"> physics </span>
+				
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+					
+				</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">code<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../markdown/index.html"> Useful things on markdown
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../pyroot/index.html"> PyROOT
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../latex/index.html"> Latex things
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+						<span class="label label-default"> tools </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../bootstrap/index.html"> Bootstrap
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../lbltb/index.html"> LBL Test Beam Graphed
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">physics<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../pythia_hand/index.html"> PYTHIA Handy
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="index.html"> ALICE Muon-Calo trigger event display
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+						<span class="label label-default"> alice </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../lhc_experiments/index.html"> LHC Experiments
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../jet_notes/index.html"> Jet substructure
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../pythia_examples_cc/index.html"> PYTHIA8 *.cc examples
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../novel_hf/index.html"> Novel methods for heavy-flavor studies
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../eic/index.html"> Electron-Ion C.
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../misc_refs/index.html"> Miscellaneous refs
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">alice<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="index.html"> ALICE Muon-Calo trigger event display
+			<small>
+				
+					
+						<span class="label label-default"> physics </span>
+					
+						<span class="label label-default"> alice </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../alice_sim_pdsf/index.html"> ALICE simulation on PDSF
+			<small>
+				
+					
+						<span class="label label-default"> alice </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../alice_file_transfer_pdsf/index.html"> ALICE data transfer to PDSF
+			<small>
+				
+					
+						<span class="label label-default"> alice </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">general<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../index/index.html"> MP Home page
+			<small>
+				
+					
+						<span class="label label-default"> general </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">students<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../students_hepsoft/index.html"> A custom HEP software installation
+			<small>
+				
+					
+						<span class="label label-default"> students </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+	<li>
+		<a href="../students_start_here/index.html"> Start Here
+			<small>
+				
+					
+						<span class="label label-default"> students </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">evernote<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../snips/index.html"> snips
+			<small>
+				
+					
+						<span class="label label-default"> evernote </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">misc<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../tests/index.html"> All sorts of tests
+			<small>
+				
+					
+						<span class="label label-default"> misc </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+					<li class="dropdown">
+						
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">tools<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+	<li class="dropdown-header">Local links...</li>
+	
+	<li>
+		<a href="../latex/index.html"> Latex things
+			<small>
+				
+					
+						<span class="label label-default"> code </span>
+					
+						<span class="label label-default"> tools </span>
+					
+				        
+			</small>
+		</a>
+	</li>
+	
+</ul>
+						
+					</li>
+				
+			</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--/.container-fluid -->
+	</nav>
+	
+	
+<div id="wrap">
+    <div class="container-fluid" id="main">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="well well-sm">
+                    <div class="page-header">
+                        
+                        <div class="well well-sm">
+                            <h1> ALICE Muon-Calo trigger event display <small> 2016-09-08 </small> </h1>
+                            
+                            
+	
+	<span class="label label-default"> <a href="../tag/physics/index.html"><span class="glyphicon glyphicon-tag"></span> physics </a> </span>
+	
+	<span class="label label-default"> <a href="../tag/alice/index.html"><span class="glyphicon glyphicon-tag"></span> alice </a> </span>
+	
+
+                            
+                            
+                            
+                            <h3> ED </h3>
+                            
+                            
+                            
+<div class="btn-group">
+	<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">Contents...<span class="caret"></span></button>
+	
+	<ul class="dropdown-menu scrollable-menu" role="menu">
+
+<li><a href="#triggers">Triggers</a></li>
+<li><a href="#pp-at-13-tev">pp at 13 TeV</a>
+<li><a href="#physics-runs">Physics runs</a>
+<li><a href="#july-2017">July 2017</a></li>
+<li><a href="#august-2017">August 2017</a></li>
+
+</li>
+
+</li>
+<li><a href="#ppb-at-8-tev">pPb at 8 TeV</a>
+<li><a href="#physics-runs_1">Physics runs</a></li>
+<li><a href="#tests">Tests</a></li>
+
+</li>
+<li><a href="#2016-pp-at-13-tev">2016 pp at 13 TeV</a>
+<li><a href="#screen-shots">Screen shots</a></li>
+<li><a href="#additional-notes">Additional notes</a></li>
+
+</li>
+
+</ul>
+
+	
+</div>
+
+                            
+                            
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        </div> <div class="well well-sm"> <h1 id="triggers">Triggers</h1><hr>
+<div class="table-responsive"><table class="table">
+<thead>
+<tr>
+<th>Trigger classes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CEMC7MSL-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CEMC7MSH-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CEMC7MUL-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CDMC7MUL-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CDMC7MSH-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CDMC7MSL-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CPHI7MSL-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CPHI7MSH-B-NOPF-MUONCALO</td>
+</tr>
+<tr>
+<td>CPHI7MUL-B-NOPF-MUONCALO</td>
+</tr>
+</tbody>
+</table></div>
+</div> <div class="well well-sm"> <h1 id="pp-at-13-tev">pp at 13 TeV</h1><hr>
+<h2 id="physics-runs">Physics runs</h2>
+<h3 id="july-2017">July 2017</h3>
+<p>Runs longer than 5h <a class="btn btn-primary btn-sm" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=sb&amp;p_rsob=l.run&amp;p_rsob_dir=DESC&amp;prsf_rwb=Yes&amp;prsf_rpart=%2C34%2C0&amp;prsf_rtype=%2C62%2C0&amp;prsf_rts=01%2F07%2F2017+00%3A00%3A00%2C31%2F07%2F2017+06%3A00%3A00%2C&amp;p_rspn=1&amp;prsf_rdur=300%20m,," target="_blank">ALICE logbook</a></p>
+<h3 id="august-2017">August 2017</h3>
+<p>Runs longer than 5h <a class="btn btn-primary btn-sm" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=sb&amp;p_rsob=l.run&amp;p_rsob_dir=DESC&amp;prsf_rwb=Yes&amp;prsf_rpart=%2C34%2C0&amp;prsf_rtype=%2C62%2C0&amp;prsf_rts=01%2F08%2F2017+00%3A00%3A00%2C01%2F09%2F2017+06%3A00%3A00%2C&amp;p_rspn=1&amp;prsf_rdur=300%20m,," target="_blank">ALICE logbook</a></p>
+</div> <div class="well well-sm"> <h1 id="ppb-at-8-tev">pPb at 8 TeV</h1><hr>
+<h2 id="physics-runs_1">Physics runs</h2>
+<p>Runs of interest in the <a class="btn btn-primary btn-sm" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=sb&amp;p_rsob=l.run&amp;p_rsob_dir=DESC&amp;prsf_rts=30%2F11%2F2016+00%3A00%3A00%2C06%2F12%2F2016+00%3A00%3A00%2C&amp;prsf_rwb=Yes&amp;prsf_rpart=%2C34%2C0&amp;p_rspn=1&amp;prsf_rtype=,62,0" target="_blank">ALICE logbook</a></p>
+<p>Runs longer than 30min (not all in the table below) <a class="btn btn-primary btn-sm" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=sb&amp;p_rsob=l.run&amp;p_rsob_dir=DESC&amp;prsf_rwb=Yes&amp;prsf_rpart=%2C34%2C0&amp;prsf_rtype=%2C62%2C0&amp;prsf_rdur=30+m%2C%2C&amp;p_rspn=1&amp;prsf_rts=30/11/2016%2000:00:00,04/12/2016%2006:00:00," target="_blank">ALICE logbook</a></p>
+<p>Some more details in the table below...</p>
+<div class="table-responsive"><table class="table">
+<thead>
+<tr>
+<th align="left">Run number</th>
+<th>N<sub>events</sub><sup>cluster</sup></th>
+<th align="left">Logbook</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">267020</td>
+<td>1.3M</td>
+<td align="left"><a class="btn btn-danger btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=267020&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left">new fill; high-rate MSL (+ECal 240 Hz, +DCal 127 Hz)</td>
+</tr>
+<tr>
+<td align="left">266998</td>
+<td>48k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266998&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266997</td>
+<td>65k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266997&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266995</td>
+<td>32k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266995&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266994</td>
+<td>181k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266994&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266993</td>
+<td>77k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266993&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266988</td>
+<td>925k</td>
+<td align="left"><a class="btn btn-danger btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266988&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"><strong>downscale for MSL 0% from this one on...</strong></td>
+</tr>
+<tr>
+<td align="left">266886</td>
+<td>235k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266886&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left">downscale for MSL 25.847%; CEMC7, CDMC7, CPHI7 on ABCE ds 1.789%</td>
+</tr>
+<tr>
+<td align="left">266885</td>
+<td>135k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266885&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left">downscale for MSL 12.635%; CEMC7, CDMC7, CPHI7 on ABCE ds 0.875%</td>
+</tr>
+<tr>
+<td align="left">266883</td>
+<td>92k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266883&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left">downscale for MSL 10.103%; CEMC7, CDMC7, CPHI7 on ABCE ds 0.699%</td>
+</tr>
+<tr>
+<td align="left">266882</td>
+<td>50k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266882&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left">downscale for MSL 09.179%; CEMC7, CDMC7, CPHI7 on ABCE ds 0.635%</td>
+</tr>
+<tr>
+<td align="left">266878</td>
+<td>220k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266878&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266808</td>
+<td>10k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266808&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266807</td>
+<td>23k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266807&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266805</td>
+<td>54k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266805&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266800</td>
+<td>84k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266800&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266776</td>
+<td>131k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266776&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">266775</td>
+<td>161k</td>
+<td align="left"><a class="btn btn-default btn-xs" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=266775&amp;p_tab=trg" target="_blank">link</a></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="tests">Tests</h2>
+<p><a class="btn btn-xs btn-default" href="https://alice-logbook.cern.ch/logbook/date_online.php?p_cont=rund&amp;p_run=265751&amp;p_tab=trg&amp;p_subtab=ttcl" target="_blank">test rates from Martino Nov. 19th</a></p>
+</div> <div class="well well-sm"> <h1 id="2016-pp-at-13-tev">2016 pp at 13 TeV</h1><hr>
+<h2 id="screen-shots">Screen shots</h2>
+<div class="codehilite"><pre>Thanks Friederike and Jeremi for the screenshots!
+</pre></div>
+
+
+<p>Pictures in CDS at CERN: <a class="btn btn-info btn-xs" href="http://cds.cern.ch/record/2215477" target="_blank" title="Go to CDS..." type="button">http://cds.cern.ch/record/2215477</a></p>
+<div class="row-fluid">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
+
+    <li data-target="#myCarousel" data-slide-to="10"></li>
+    <li data-target="#myCarousel" data-slide-to="11"></li>
+    <li data-target="#myCarousel" data-slide-to="12"></li>
+    <li data-target="#myCarousel" data-slide-to="13"></li>
+    <li data-target="#myCarousel" data-slide-to="14"></li>
+
+    <li data-target="#myCarousel" data-slide-to="15"></li>
+    <li data-target="#myCarousel" data-slide-to="16"></li>
+    <li data-target="#myCarousel" data-slide-to="17"></li>
+    <li data-target="#myCarousel" data-slide-to="18"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+
+
+
+    <div class="item active">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event1190.png" alt="img2/event1190.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event1190.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event1528.png" alt="img2/event1528.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event1528.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event2020.png" alt="img2/event2020.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event2020.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event2348.png" alt="img2/event2348.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event2348.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event2681.png" alt="img2/event2681.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event2681.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event3142.png" alt="img2/event3142.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event3142.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event3226.png" alt="img2/event3226.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event3226.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event4203.png" alt="img2/event4203.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event4203.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event4209.png" alt="img2/event4209.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event4209.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event4553.png" alt="img2/event4553.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event4553.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event4599.png" alt="img2/event4599.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event4599.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event4719.png" alt="img2/event4719.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event4719.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event5195.png" alt="img2/event5195.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event5195.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event5825.png" alt="img2/event5825.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event5825.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event5874.png" alt="img2/event5874.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event5874.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event6190.png" alt="img2/event6190.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event6190.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event7015.png" alt="img2/event7015.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event7015.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event7755.png" alt="img2/event7755.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event7755.png</font></p>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <img src="https://dl.dropboxusercontent.com/u/14190654/twiki/ED/muoncalo/img2/event7957.png" alt="img2/event7957.png">
+      <div class="carousel-caption">
+        <h5><font color="red">ALICE 13 TeV pp 2016</font></h5>
+        <p><font color="red">event7957.png</font></p>
+      </div>
+    </div>
+
+
+  </div>
+
+<p><!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div></p>
+<h2 id="additional-notes">Additional notes</h2>
+<p>Martino: starting from run 261026, coincidences with di-muons are also activated: C(EMC,DMC,PHI)7MUL.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+		
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- <script src="../static/mp/js/getServerTime.js"></script> -->
+		<script src="../static/mp/js/getClientTime.js"></script>
+		<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          config: ["MMLorHTML.js"],
+          jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+          extensions: ["MathMenu.js", "MathZoom.js"]
+        });
+        </script>
+		<script>
+		window.twttr = (function (d,s,id) {
+			var t, js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
+			js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+			return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+		</script>
+		<!-- script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script -->
+	
+	
+
+      <footer class="bs-docs-footer text-muted" role="contentinfo" id="foot">
+      <p> E-mail: mploskon @ lbl.gov </p>
+      <p> Mail: 1 Cyclotron Road, Berkeley, CA, USA </p>
+      <span class="label label-default" id="clientTime">not loaded</span>
+      </footer>
+
+
+
+  </body>
+</html>
