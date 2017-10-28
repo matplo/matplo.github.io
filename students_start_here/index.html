@@ -13,15 +13,15 @@ Start Here
 <!-- <link rel="stylesheet" href="../static/mp/css/docs.min.css"> -->
 <!-- <link rel="stylesheet" href="../static/mp/css/bg.css"> -->
 <!-- <link rel="stylesheet" href="../static/mp/css/_navbar.css"> -->
-<!-- link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/docs.min.css" rel="stylesheet"> -->
+<!-- link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/docs.min.css" rel="stylesheet"> -->
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- <link href="https://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet"> -->
-<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/bgfiti.css" rel="stylesheet">
-<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/navbar.css" rel="stylesheet">
-<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/sublevel-dropdown.css" rel="stylesheet">
-<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/other.css" rel="stylesheet">
+<link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/bgfiti.css" rel="stylesheet">
+<link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/navbar.css" rel="stylesheet">
+<link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/sublevel-dropdown.css" rel="stylesheet">
+<link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/other.css" rel="stylesheet">
 <link rel="stylesheet" href="../static/mp/css/pygments.css">
-<!--<link href="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/css/tomorrow-night.css" rel="stylesheet"> -->
+<!--<link href="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/css/tomorrow-night.css" rel="stylesheet"> -->
 
   </head>
   <body>
@@ -649,7 +649,10 @@ Start Here
 <li><a href="#root-pythia">ROOT &amp; PYTHIA</a></li>
 <li><a href="#first-steps-with-pythia-root">First steps with PYTHIA + ROOT</a>
 <li><a href="#get-the-code">Get the code</a></li>
-<li><a href="#for-an-installation-at-pdsf">For an installation at PDSF</a></li>
+<li><a href="#for-an-installation-at-pdsf">For an installation at PDSF</a>
+<li><a href="#and-to-run-and-example">and to run and example...</a></li>
+
+</li>
 <li><a href="#run-and-modify-the-code">Run and modify the code</a></li>
 
 </li>
@@ -697,21 +700,19 @@ Start Here
 </ul>
 <h2 id="for-an-installation-at-pdsf">For an installation at PDSF</h2>
 <ul>
-<li>Follow the lines below instead of what on github README.md...</li>
-<li>Note: PYTHIA and ROOT already installed(!)</li>
+<li>On PDSF HEPSOFT is already installed so you need:</li>
 </ul>
-<div class="codehilite"><pre>$ &lt;dir_where_downloaded&gt;/scripts/make_module.sh -v pdsf -p -c
-$ module load use.own
-$ module load jetty/pdsf
-$ build_jetty.sh
+<div class="codehilite"><pre>$ module use /project/projectdirs/alice/ploskon/software/hepsoft/modules
+$ module load hepsoft
 </pre></div>
 
 
-<ul>
-<li>from then on the following will be enough to setup things (including in the batch script - see below)...</li>
-</ul>
-<div class="codehilite"><pre>$ module load use.own
-$ module load jetty/pdsf
+<h3 id="and-to-run-and-example">and to run and example...</h3>
+<div class="codehilite"><pre>$ module use /project/projectdirs/alice/ploskon/software/hepsoft/modules
+$ module load hepsoft
+$ module use &lt;dir_where_jetty_downloaded&gt;/modules
+$ module load jetty/1.0
+$ jettyExamplesExe --pythia
 </pre></div>
 
 
@@ -730,6 +731,7 @@ $ module load jetty/pdsf
 <li>Try to include jet finding inside your code generating pythia events - fill a histogram with \(p_{T}\) of anti-\(k_{T}\) R=0.4 jets reconstructed with final state particles within a window of pseudorapidity \(\eta&lt;2\).</li>
 </ul>
 </div> <div class="well well-sm"> <h1 id="running-batch-jobs-at-pdsf">Running batch jobs at PDSF</h1><hr>
+<p><code>THIS IS OUTDATED - because of PDSF MIGRATION TO SLURM!</code></p>
 <ul>
 <li>This is a rough example so patience is required and no miracles to be expected. You probably will have to try and faile and tailor it to your needs...</li>
 <li>Everything in <code>&lt;&gt;</code> brackets below requires your intervention</li>
@@ -805,7 +807,7 @@ Note the <code>-l h_vmem=4G</code> parameters that ask for 4GB of memory.</p>
 <h2 class="panel-title">Common PDG codes</h2>
 </div>
 <div class="panel-body">
-<img class="img-responsive" src="https://dl.dropboxusercontent.com/u/14190654/web/static/resources/mp/img/common_pdg_codes.png" alt="Common PDG codes"></img>
+<img class="img-responsive" src="http://portal.nersc.gov/project/alice/ploskon/static/static_extra/resources/mp/img/common_pdg_codes.png" alt="Common PDG codes"></img>
 </div>
 <div class="panel-footer">A screen shot from of PDG codes found somewhere on the web...</div>
 </div>
