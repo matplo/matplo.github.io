@@ -35,7 +35,7 @@ $(document).ready(function()
 			      
 		      var chart = new Highcharts.Chart(options);		      
 		      //$.getJSON('plot2/arxiv/alice', function(data) {
-		      $.getJSON('../static/data/alice.json', function(data) {		      
+		      $.getJSON('data/alice.json', function(data) {		      
 			  var chartSeriesData = [];			  
 			  var i = 0;
 			  for (d of data) {
@@ -57,7 +57,7 @@ $(document).ready(function()
 		      });
 
 
-		      $.getJSON('../static/data/atlas.json', function(data) {
+		      $.getJSON('data/atlas.json', function(data) {
 			  var chartSeriesData = [];			  			  
 			  var i = 0;
 			  for (d of data) {
@@ -78,7 +78,7 @@ $(document).ready(function()
 			  document.getElementById("atlas").innerHTML = 'ATLAS: ' + chartSeriesData.length;
 		      });
 
-		      $.getJSON('../static/data/cms.json', function(data) {
+		      $.getJSON('data/cms.json', function(data) {
 			  var chartSeriesData = [];			  			  
 			  var i = 0;
 			  for (d of data) {
@@ -99,7 +99,7 @@ $(document).ready(function()
 			  document.getElementById("cms").innerHTML = 'CMS: ' + chartSeriesData.length;
 		      });
 
-		      $.getJSON('../static/data/lhcb.json', function(data) {
+		      $.getJSON('data/lhcb.json', function(data) {
 			  var chartSeriesData = [];			  			  
 			  var i = 0;
 			  for (d of data) {

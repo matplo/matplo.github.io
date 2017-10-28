@@ -2,7 +2,6 @@
 // Navbars
 // --------------------------------------------------
 
-
 // Wrapper and base class
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -87,16 +86,6 @@
   }
 }
 
-.navbar-fixed-top,
-.navbar-fixed-bottom {
-  .navbar-collapse {
-    max-height: $navbar-collapse-max-height;
-
-    @media (max-width: $screen-xs-min) and (orientation: landscape) {
-      max-height: 200px;
-    }
-  }
-}
 
 
 // Both navbar header and collapse

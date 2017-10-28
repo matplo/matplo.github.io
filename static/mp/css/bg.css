@@ -10,32 +10,32 @@ body {
     padding-top: 70px;    
 }
 
-.page-header h1 {
-   color:black;
-   margin:0;
-   background: rgba(255,255,255,0.92);
-}
-
-.well {
-   color:black;
-   margin:0;
-   background: rgba(255,255,255,0.92);
-}
-
 #jumbo {
     /* height: 350px; */
     color: black;
     /* text-shadow: #444 0 1px 1px;*/
     /* background:transparent; */
-    background: rgba(255,255,255,0.92);
+    background: rgba(255,255,255,0.8);
+
 }
 
-#arow {
-    /* height: 350px; */
-    color: black;
-    /* text-shadow: #444 0 1px 1px;*/
-    /* background:transparent; */
-    background: rgba(255,255,255,0.92);
+.container .jumbotron {
+  padding-left: 10px;
+}
+
+.well{
+  background-color: rgba(255,255,255,0.8); // I don't know the .well color, so I used white as example
+}
+
+.mpimg { 
+  width: 200px; 
+  max-width: 200px;
+  display: block;
+}
+
+img[alt="mpimg"] { 
+  max-width:  20px; 
+  display: block;
 }
 
 #indexTable {
@@ -64,11 +64,11 @@ body {
 }
 
 #foot {
-    height: 170px;
+    //height: 150px;
     color: black;
     /* text-shadow: #444 0 1px 1px; */
     /* background:transparent; */
-    background: rgba(255,255,255,0.92);
+    background: rgba(255,255,255,0.8);
 }
 
 body{
